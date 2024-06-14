@@ -1,3 +1,4 @@
+
 // This is a Rust file. It is a plain text file with a `.rs` extension.
 //
 // Like most modern programming languages, Rust supports comments. You're looking at one right now!
@@ -16,8 +17,7 @@
 // If you get stuck for more than 10 minutes on an exercise, grab a trainer! We're here to help!
 // You can also find solutions to all exercises in the `solutions` git branch.
 fn greeting() -> &'static str {
-    // TODO: fix me 👇
-    "I'm ready to __!"
+    "I'm ready to learn Rust!"
 }
 
 // Your solutions will be automatically verified by a set of tests.
