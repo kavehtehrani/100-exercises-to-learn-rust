@@ -4,6 +4,7 @@ use outro_02::Order;
 // As a consequence, we don't need the `#[cfg(test)]` attribute for conditional compilation—it's
 // implied.
 
+
 #[test]
 fn test_order() {
     let mut order = Order::new("Rusty Book".to_string(), 3, 2999);
