@@ -14,7 +14,7 @@ mod tests {
     #[test]
     fn string_size() {
         // pointer, len, and capacity, each one is a usize
-        assert_eq!(size_of::<String>(), size_of::<usize>()*3);
+        assert_eq!(size_of::<String>(), size_of::<usize>() * 3);
     }
 
     #[test]
@@ -26,6 +26,6 @@ mod tests {
         // https://doc.rust-lang.org/nomicon/data.html for more information.
 
         // three strings, so three times the size of a String pointer
-        assert_eq!(size_of::<Ticket>(), size_of::<usize>()*3*3);
+        assert_eq!(size_of::<Ticket>(), size_of::<usize>() * 3 * 3);
     }
 }

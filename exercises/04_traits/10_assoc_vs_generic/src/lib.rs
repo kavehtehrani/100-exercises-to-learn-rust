@@ -13,7 +13,6 @@
 // You don't have to though: it's perfectly okay to write three separate
 // implementations manually. Venture further only if you're curious.
 
-
 pub trait Power<Exponent = Self> {
     type Output;
 
@@ -43,7 +42,6 @@ impl Power<&u32> for u32 {
         self.pow(*n)
     }
 }
-
 
 #[cfg(test)]
 mod tests {
