@@ -32,6 +32,12 @@ impl TicketStore {
     }
 }
 
+impl TicketStore {
+    pub fn iter(&self) -> impl Iterator<Item = &Ticket> {
+        self.tickets.iter()
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
